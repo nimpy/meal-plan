@@ -1,85 +1,88 @@
-potato, kg
-brown onion, kg
-red onion, kg
-garlic, piece
-shallot, g
+potato, kg, 2, 0.8
+brown onion, kg, 2, 0.8
+red onion, kg, 2, 0.8
+garlic, piece, 2, 0.8
+shallot, g, 2, 0.8
 
-basil, box
-coriander, box
-parsley, box
-snowepeas, box
-lemongrass, piece
-shitty Flemish mushrooms, g
-shiitake musrhooms, g
-salad, bag
-spinach, g
-baby spinach, g
+basil, box, 0, 0.8
+coriander, box, 0, 0.8
+parsley, box, 0, 0.8
+snowepeas, box, 0, 0.4
+lemongrass, piece, 2, 0.4
+shitty Flemish mushrooms, g, 0, 0.8
+shiitake musrhooms, g, 0, 0.8
+salad, bag, 0, 0.2
+spinach, g, 0, 0.8
+baby spinach, g, 0, 0.8
 
-avocado, piece
-eggplant, piece
-zucchini, piece
-cucumber, piece
-tomato, piece
-cherry tomatoes, g
-capsicum, piece
-red capsicum, piece
-yellow capsicum, piece
-carrot, piece
-sweet potato, piece
-broccoli, piece
-pumpkin, piece
-ginger, piece
-spring onion, bunch
+avocado, piece, 1, 0
+eggplant, piece, 1, 0.2
+zucchini, piece, 1, 0.4
+cucumber, piece, 1, 0.4
+tomato, piece, 1, 0.4
+cherry tomatoes, g, 1, 0.4
+capsicum, piece, 1, 0.4
+red capsicum, piece, 1, 0.4
+yellow capsicum, piece, 1, 0.4
+carrot, piece, 1, 0.4
+sweet potato, kg, 2, 0.4
+broccoli, piece, 0, 0.2
+pumpkin, kg, 2, 0.4
+ginger, piece, 2, 0.2
+spring onion, bunch, 0, 0.4
 
-green chilly, piece
-red chilly, piece
+green chilly, piece, 2, 0.4
+red chilly, piece, 2, 0.4
 
-lime, piece
-lemon, piece
-fruit, g
-bananas, bag
+lime, piece, 2, 0.6
+lemon, piece, 2, 0.6
+fruit, g, 0, 0.6
+berries, g, 0, 0.6
+bananas, bag, 0, 0.6
 
-wraps, package
-rice, g
-risotto rice, g
-coconut cream, l
+wraps, package, 20, 1
+rice, g, 50, 1
+risotto rice, g, 50, 1
+coconut cream, l, 50, 1
 
-chickpeas, can
-beans, can
+chickpeas, can, 50, 1
+beans, can, 50, 1
 
-parmesan, box
-mozzarella, box
-sahne, cup
+fake meat, package, 1, 1
 
-yoghurt, g
-milk, ml
+parmesan, box, 0, 1
+mozzarella, box, 3, 1
+sahne, cup, 3, 0.8
 
-tuna, can
-bread, slice
-peanut butter, g
-vanilla extract, bottle
-muesli, g
-eggs, piece
+yoghurt, g, 3, 1
+milk, ml, 20, 1
 
-pasta sauce, bottle
-penne, package
-tagliatelle, package
+tuna, can, 50, 1
+bread, slice, 0, 0.4
+peanut butter, g, 35, 1
+vanilla extract, bottletje, 50, 0.8
+muesli, g, 30, 1
+eggs, piece, 3, 1
 
-white wine, bottle
+pasta sauce, bottle, 50, 1
+penne, package, 50, 1
+tagliatelle, package, 1, 1
 
-lentils, g
-cumin seeds, g
-dosa mix, g
+white wine, bottle, 10, 0.8
 
-tofu, package
+lentils, g, 50, 1
+cumin seeds, g, 50, 0.8
+dosa mix, g, 50, 1
 
-flour, g
+tofu, package, 0, 0.8
 
-nori, sheet
-sushi rice, g
-sushi rice vinegar, ml
+flour, g, 50, 0.2
 
-sesame seeds, g
-almonds, g
-walnuts, g
+nori, sheet, 50, 0.8
+sushi rice, g, 50, 0.8
+sushi rice vinegar, ml, 25, 0.8
+
+sesame seeds, g, 25, 0.8
+almonds, g, 25, 0.8
+walnuts, g, 25, 0.8
 
