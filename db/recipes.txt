@@ -1,0 +1,41 @@
+The Classic Pasta, 4
+pasta sauce, 1
+penne, 1
+eggplant, 5
+zucchini, 1
+brown onion, 0.5 
+garlic, 1
+basil, 1
+
+Fede's Pasta, 4
+tagliatelle, 1
+garlic, 1
+brown onion, 0.5
+pumpkin, 1
+white wine, 1
+shitty Flemish mushrooms, 500
+parsley, 1
+sahne, 1
+parmesan, 1
+
+Risotto, 6
+risotto rice, 1000
+parmesan, 1
+brown onion, 0.75
+garlic, 2
+cherry tomatoes, 100
+spinach, 800
+pumpkin, 1
+zucchini, 1
+red capsicum, 3
+carrot, 2
+shitty Flemish mushrooms, 750
+
+The Peanut Butter Toast, 2
+peanut butter, 100
+bread, 4
+
+The Muesli and Milk, 1
+muesli, 150
+milk, 200
+

@@ -1,5 +1,5 @@
 class Grocery:
-    def __init__(self, name, unit, ninz_friendly):
+    def __init__(self, name, unit, long_lasting=False, ninz_friendly=False):
         self.name = name
         self.unit = unit
         self.ninz_friendly = ninz_friendly
@@ -12,8 +12,9 @@ class RecipeIngredient:
 
 
 class Recipe:
-    def __init__(self, ingredients, servings):
-        self.ingredients = ingredients
+    def __init__(self, name, ingredients, servings):
+        self.name = name
+        self.ingredients = ingredients  # TODO check if it can be both a recipe ingredient and a meal plan ingredient
         self.servings = servings
 
 

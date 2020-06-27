@@ -1,0 +1,85 @@
+potato, kg
+brown onion, kg
+red onion, kg
+garlic, piece
+shallot, g
+
+basil, box
+coriander, box
+parsley, box
+snowepeas, box
+lemongrass, piece
+shitty Flemish mushrooms, g
+shiitake musrhooms, g
+salad, bag
+spinach, g
+baby spinach, g
+
+avocado, piece
+eggplant, piece
+zucchini, piece
+cucumber, piece
+tomato, piece
+cherry tomatoes, g
+capsicum, piece
+red capsicum, piece
+yellow capsicum, piece
+carrot, piece
+sweet potato, piece
+broccoli, piece
+pumpkin, piece
+ginger, piece
+spring onion, bunch
+
+green chilly, piece
+red chilly, piece
+
+lime, piece
+lemon, piece
+fruit, g
+bananas, bag
+
+wraps, package
+rice, g
+risotto rice, g
+coconut cream, l
+
+chickpeas, can
+beans, can
+
+parmesan, box
+mozzarella, box
+sahne, cup
+
+yoghurt, g
+milk, ml
+
+tuna, can
+bread, slice
+peanut butter, g
+vanilla extract, bottle
+muesli, g
+eggs, piece
+
+pasta sauce, bottle
+penne, package
+tagliatelle, package
+
+white wine, bottle
+
+lentils, g
+cumin seeds, g
+dosa mix, g
+
+tofu, package
+
+flour, g
+
+nori, sheet
+sushi rice, g
+sushi rice vinegar, ml
+
+sesame seeds, g
+almonds, g
+walnuts, g
+
