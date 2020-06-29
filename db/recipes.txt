@@ -1,4 +1,4 @@
-The Classic Pasta, 4
+The Classic Pasta, 4, main courses
 pasta sauce, 1
 penne, 1
 eggplant, 5
@@ -7,7 +7,7 @@ brown onion, 0.5
 garlic, 1
 basil, 1
 
-Fede's Pasta, 4
+Fede's Pasta, 4, main courses
 tagliatelle, 1
 garlic, 1
 brown onion, 0.5
@@ -18,7 +18,7 @@ parsley, 1
 sahne, 1
 parmesan, 1
 
-Risotto (with pumpkin), 6
+Risotto (with pumpkin), 6, main courses
 risotto rice, 1000
 parmesan, 1
 brown onion, 0.75
@@ -31,7 +31,7 @@ red capsicum, 3
 carrot, 2
 shitty Flemish mushrooms, 750
 
-Risotto (with sweet potato), 6
+Risotto (with sweet potato), 6, main courses
 risotto rice, 1000
 parmesan, 1
 brown onion, 0.75
@@ -44,7 +44,7 @@ red capsicum, 3
 carrot, 2
 shitty Flemish mushrooms, 750
 
-Asiatische Wok, 6
+Asiatische Wok, 6, main courses
 rice, 500
 eggplant, 5
 broccoli, 2
@@ -52,11 +52,107 @@ capsicum, 3
 ginger, 1
 garlic, 2
 
-The Peanut Butter Toast, 2
-peanut butter, 100
+Bruschetta, 2, Vorspeisen
+bread, 4
+garlic, 0.2
+cherry tomatoes, 10
+olive oil fancy, 20
+salt, 4
+
+The Classic Breakfast, 2, breakies
+bread, 6
+avocado, 2
+eggs, 7
+
+The Three* Ingredient Pancakes, 2, breakies
+banana, 2 
+egg, 2
+muesli, 350
+cinnamon, 20
+coconut oil, 10
+
+Berlin Breakfast, 2, breakies
+bread, 6
+eggs, 4
+avocado, 2
+Salsa
+
+Eindhoven Breakfast, 2, breakies
+Banana bread Y.U.M.M.Y.
+berries, 300
+coconut yoghurt, 400
+chocolate, 80
+
+The Peanut Butter Toast, 2, Ninz-friendly meals
+peanut butter, 60
 bread, 4
 
-The Muesli and Milk, 1
-muesli, 150
-milk, 200
+The Muesli and Milk, 1, Ninz-friendly meals
+muesli, 80
+milk, 250
+
+The Muesli and Yoghurt, 1, Ninz-friendly meals
+muesli, 80
+yoghurt, 200
+
+The Oats and Boiling Water and Cinnamon, 1, Ninz-friendly meals
+muesli, 80
+water, 200
+cinnamon, 5
+
+The Tuna and Bread and Leftover Salad, 1, Ninz-friendly meals
+tuna, 1
+bread, 2
+
+The Peanut Butter On Chocolate, 1, Ninz-friendly meals
+chocolate, 32
+peanut butter, 15
+
+The Almonds with Chocolate, 1, Ninz-friendly meals
+chocolate, 32
+almonds, 32
+
+The Banana or Two, 1, Ninz-friendly meals
+banana, 2
+
+The Fruit, 1, Ninz-friendly meals
+fruit, 150
+
+Banana bread Y.U.M.M.Y., 4, desserts
+banana, 7
+eggs, 1
+vanilla extract, 0.5
+baking soda, 4
+cinnamon, 20
+salt, 4
+almonds, 200
+coconut oil, 10
+
+The Water, 1, beverages
+water, 250
+
+The Emergency Sparkling Water, 1, beverages
+emergency sparkling water, 250
+
+The Alkohol-frei Bierschen, 1, beverages
+alkohol-frei bierschen, 500
+
+The Green Tea, 1, beverages
+green tea, 2
+water, 250
+
+The Black Tea, 1, beverages
+black tea, 2
+water, 200
+milk, 50
+
+Chai Latte, 3, beverages
+black tea, 15
+soy milk, 1000
+ginger, 1
+cardamom, 20
+cinnamon, 20
+water, 150
+
+
 
