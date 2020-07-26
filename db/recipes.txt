@@ -52,6 +52,101 @@ capsicum, 3
 ginger, 1
 garlic, 2
 
+#
+Sushi from Japan, 4, main courses
+nori
+sushi rice
+rice vinegar
+soy sauce
+wasabi
+pickled ginger
+avocados
+cucumber
+capsicum
+carrot
+spring onion
+spinach
+shiitake mushrooms
+sweet potato
+tofu
+
+Daal, 7, main courses
+lentils, 810
+rice, 200
+coriander, 1
+green chillies, 2
+onions, 1
+tomato, 8
+potato, 0.4
+garlic, 1.5
+ginger, 1
+lime, 4
+
+Masala Dosa, 2, main courses
+dosa mix, 400
+water, 250
+onions, 1
+potatoes, 1
+
+Green Curry, 6, main courses
+rice, 200
+coconut cream, 1
+tofu
+broccoli, 2
+carrots, 2
+potatoes, 0.8
+green chillies, 3
+garlic 2-3
+basil, 2
+shallots, 1 pack
+lemongrass, 50
+ginger, 1
+lime, 2
+
+Pizza
+Friedhelm
+flour
+pasta sauce
+garlic
+eggplant
+zucchini
+onions
+basil
+mozzarella
+
+Mega Vega Burger
+fake meat
+tomatoes
+bread
+
+…
+
+The Salad
+salad
+avocado
+some seeds?
+salt
+olive oil
+balsamic vinegar
+
+I Falafel When Listening To Wrap Music / Hummus where the heart is
+wraps
+hummus
+falafels
+eggplant
+onions?
+
+That's a wrap
+wraps
+avocado XOR (avocado AND salsa) XOR (guacamole)
+garlic?
+onions
+beans
+salad
+potatoes?
+
+#until here, plus the recursive ones
+
 Bruschetta, 2, Vorspeisen
 bread, 4
 garlic, 0.2

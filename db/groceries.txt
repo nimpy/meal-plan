@@ -8,7 +8,7 @@ basil, box, 0, 0.8
 coriander, box, 0, 0.8
 parsley, box, 0, 0.8
 snowepeas, box, 0, 0.4
-lemongrass, piece, 2, 0.4
+lemongrass, g, 2, 0.4
 shitty Flemish mushrooms, g, 0, 0.8
 shiitake musrhooms, g, 0, 0.8
 salad, bag, 0, 0.2
