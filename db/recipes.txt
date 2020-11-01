@@ -1,11 +1,9 @@
 The Classic Pasta, 4, main courses
 pasta sauce, 1
 penne, 1
-eggplant, 5
-zucchini, 1
 brown onion, 0.5 
 garlic, 1
-basil, 1
+red chilly, 5
 
 Fede's Pasta, 4, main courses
 tagliatelle, 1
@@ -46,38 +44,35 @@ shitty Flemish mushrooms, 750
 
 Asiatische Wok, 6, main courses
 rice, 500
+soy sauce, 150
 eggplant, 5
 broccoli, 2
 capsicum, 3
+zucchini, 1
 ginger, 1
 garlic, 2
 
-#
-Sushi from Japan, 4, main courses
-nori
-sushi rice
-rice vinegar
-soy sauce
-wasabi
-pickled ginger
-avocados
-cucumber
-capsicum
-carrot
-spring onion
-spinach
-shiitake mushrooms
-sweet potato
-tofu
+Sushi from Japan, 6, main courses
+nori, 15
+sushi rice, 1
+sushi rice vinegar, 250
+soy sauce, 150
+wasabi, 10
+avocado, 4
+cucumber, 1
+capsicum, 1
+baby spinach, 200
+sweet potato, 0.25
+tofu, 1
 
 Daal, 7, main courses
 lentils, 810
 rice, 200
+dosa mix, 500
 coriander, 1
-green chillies, 2
-onions, 1
+green chilly, 2
+brown onion, 0.5
 tomato, 8
-potato, 0.4
 garlic, 1.5
 ginger, 1
 lime, 4
@@ -85,24 +80,25 @@ lime, 4
 Masala Dosa, 2, main courses
 dosa mix, 400
 water, 250
-onions, 1
-potatoes, 1
+brown onion, 1
+potato, 1
 
 Green Curry, 6, main courses
 rice, 200
 coconut cream, 1
-tofu
-broccoli, 2
+tofu, 3
+broccoli, 3
 carrots, 2
-potatoes, 0.8
-green chillies, 3
-garlic 2-3
-basil, 2
-shallots, 1 pack
-lemongrass, 50
+potatoes, 1
+green chilly, 3
+garlic, 1.5
+basil, 3
+shallot, 250
+lemongrass, 150
 ginger, 1
 lime, 2
 
+#
 Pizza
 Friedhelm
 flour
@@ -136,15 +132,19 @@ falafels
 eggplant
 onions?
 
-That's a wrap
-wraps
-avocado XOR (avocado AND salsa) XOR (guacamole)
-garlic?
-onions
-beans
-salad
-potatoes?
-
+That's a wrap, 2, main courses
+wraps, 4
+beans, 1
+red onion, 0.25
+capsicum, 1
+sweet potato, 0.25
+avocado, 2
+tomatoes, 2
+red chilly, 1
+shallot, 50
+garlic, 0.25
+lime, 1
+salad, 1
 #until here, plus the recursive ones
 
 Bruschetta, 2, Vorspeisen

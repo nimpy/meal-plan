@@ -82,12 +82,14 @@ cardamom, g, 50, 0.8
 dosa mix, g, 50, 1
 
 tofu, package, 0, 0.8
-
-flour, g, 50, 0.2
+soy sauce, ml, 25, 0.8
 
 nori, sheet, 50, 0.8
-sushi rice, g, 50, 0.8
+sushi rice, kg, 50, 0.8
 sushi rice vinegar, ml, 25, 0.8
+wasabi, g, 25, 0.8
+
+flour, g, 50, 0.2
 
 sesame seeds, g, 25, 0.8
 almonds, g, 25, 0.8
