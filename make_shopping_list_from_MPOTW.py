@@ -97,4 +97,4 @@ for grocery in all_groceries:
 
 file.close()
 
-print('The shopping list for the ♪ meal plan.. of the week!! ♪ has been saved in: \n    ' + file_path)
+print('The shopping list for the ♪ meal plan... of the week!! ♪ has been saved in: \n    ' + file_path)

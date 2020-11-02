@@ -6,7 +6,7 @@ from lib import Recipe
 week_days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 meal_types = ['Brunch', 'Dinner']
 
-error_message = "Add argument for the starting day of the ♪ meal plan.. of the week!! ♪ (Mon, Tue, Wed, Thu, Fri, Sat, Sun)"
+error_message = "Add argument for the starting day of the ♪ meal plan... of the week!! ♪ (Mon, Tue, Wed, Thu, Fri, Sat, Sun)"
 
 assert len(sys.argv) == 2, error_message
 first_day = sys.argv[1].title()
@@ -27,6 +27,6 @@ for recipe in all_recipes:
     file.write('#' + recipe.name + '\n')
 file.close()
 
-print('Empty ♪ meal plan.. of the week!! ♪ has been created: \n    ' + file_path)
+print('Empty ♪ meal plan... of the week!! ♪ has been created: \n    ' + file_path)
 
 
