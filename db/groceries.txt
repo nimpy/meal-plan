@@ -41,7 +41,7 @@ fruit, g, 0, 0.6
 berries, g, 0, 0.6
 banana, piece, 0, 0.6
 
-wraps, package, 20, 1
+wraps, piece, 20, 1
 rice, g, 50, 1
 risotto rice, g, 50, 1
 coconut cream, l, 50, 1
