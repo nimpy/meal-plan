@@ -20,6 +20,7 @@ eggplant, piece, 1, 0.2
 zucchini, piece, 1, 0.4
 cucumber, piece, 1, 0.4
 tomato, piece, 1, 0.4
+fancy tomato, piece, 1, 0.4
 cherry tomatoes, g, 1, 0.4
 capsicum, piece, 1, 0.4
 red capsicum, piece, 1, 0.4
@@ -90,6 +91,7 @@ sushi rice vinegar, ml, 25, 0.8
 wasabi, g, 25, 0.8
 
 flour, g, 50, 0.2
+friedhelm, g, 50, 0
 
 sesame seeds, g, 25, 0.8
 almonds, g, 25, 0.8
@@ -101,6 +103,7 @@ coconut oil, g, 50, 0.8
 sunflower oil, ml, 50, 0.8
 olive oil cheap, ml, 50, 1
 olive oil fancy, ml, 50, 1
+balsamic vinegar, ml, 50, 0.8
 
 water, ml, 50, 1
 emergency sparkling water, ml, 50, 1

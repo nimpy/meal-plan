@@ -88,8 +88,8 @@ rice, 200
 coconut cream, 1
 tofu, 3
 broccoli, 3
-carrots, 2
-potatoes, 1
+carrot, 2
+potato, 1
 green chilly, 3
 garlic, 1.5
 basil, 3
@@ -98,54 +98,42 @@ lemongrass, 150
 ginger, 1
 lime, 2
 
-#
-Pizza
-Friedhelm
-flour
-pasta sauce
-garlic
-eggplant
-zucchini
-onions
-basil
-mozzarella
+Pizza, 3, main courses
+friedhelm, 100
+flour, 500
+pasta sauce, 1
+garlic, 1
+eggplant, 5
+zucchini, 1
+brown onion, 0.5 
+basil, 2
+mozzarella, 1
 
-Mega Vega Burger
-fake meat
-tomatoes
-bread
+Mega Vega Burger, 1, main courses
+fake meat, 1
+fancy tomato, 2
 
-…
+The Salad, 1, main courses
+salad, 1
+avocado, 1
+almonds, 100
+salt, 10
+olive oil fancy, 20
+balsamic vinegar, 10
 
-The Salad
-salad
-avocado
-some seeds?
-salt
-olive oil
-balsamic vinegar
-
-I Falafel When Listening To Wrap Music / Hummus where the heart is
-wraps
-hummus
-falafels
-eggplant
-onions?
-
-That's a wrap, 2, main courses
+The Classic Wraps, 2, main courses
 wraps, 4
 beans, 1
 red onion, 0.25
 capsicum, 1
 sweet potato, 0.25
 avocado, 2
-tomatoes, 2
+fancy tomato, 2
 red chilly, 1
 shallot, 50
 garlic, 0.25
 lime, 1
 salad, 1
-#until here, plus the recursive ones
 
 Bruschetta, 2, Vorspeisen
 bread, 4
@@ -161,22 +149,10 @@ eggs, 7
 
 The Three* Ingredient Pancakes, 2, breakies
 banana, 2 
-egg, 2
+eggs, 2
 muesli, 350
 cinnamon, 20
 coconut oil, 10
-
-Berlin Breakfast, 2, breakies
-bread, 6
-eggs, 4
-avocado, 2
-Salsa
-
-Eindhoven Breakfast, 2, breakies
-Banana bread Y.U.M.M.Y.
-berries, 300
-coconut yoghurt, 400
-chocolate, 80
 
 The Peanut Butter Toast, 2, Ninz-friendly meals
 peanut butter, 60
@@ -248,6 +224,4 @@ ginger, 1
 cardamom, 20
 cinnamon, 20
 water, 150
-
-
 
