@@ -13,7 +13,7 @@ first_day = sys.argv[1].title()
 
 assert first_day in week_days, error_message
 
-file_path = 'meal_plans_of_the_week/meal_plan...of_the_week!!_' + datetime.datetime.now().strftime("%Y%m%d") + '.txt'
+file_path = 'meal_plans_of_the_week/mpotw_' + datetime.datetime.now().strftime("%Y%m%d") + '.txt'
 
 all_recipes = Recipe.get_all_recipes()
 

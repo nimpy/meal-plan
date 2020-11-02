@@ -1,7 +1,7 @@
 from os import listdir
 import os
 import sys
-from lib import Grocery, RecipeIngredient, Recipe, MealPlanIngredient, MealPlan
+from lib import Grocery, Recipe, MealPlanIngredient, MealPlan
 
 
 # finding the correct file
@@ -10,7 +10,10 @@ files = listdir(directory_MPOTW)
 files.sort()
 
 if len(sys.argv) < 2:
-    filename_MPOTW = files[-1]
+    if files[-1].endswith('_shopping_list.txt'):
+        filename_MPOTW = files[-2]
+    else:
+        filename_MPOTW = files[-1]
 else:
     filename_MPOTW = sys.argv[1]
 
@@ -67,29 +70,31 @@ for meal_plan_ingredient in meal_plan.meal_plan_ingredients:
             shopping_list[ingredient.grocery.name][1].append(recipe.name)
 
 
-# printing out the individual lists
-print('NINZ list')
+# printing out the individual shopping lists to a new file
+file_path = os.path.join(directory_MPOTW, os.path.splitext(filename_MPOTW)[0] + '_shopping_list.txt')
+file = open(file_path, "w")
+
+line_break_string = '_' * 80
+print('NINZ list', file=file)
 for grocery in all_groceries:
     if shopping_list[grocery.name][0] != 0:
         if grocery.storage_time < 15:
             if grocery.ninz_friendly > 0.5:
-                print(grocery.name.ljust(20), ('%f' % shopping_list[grocery.name][0]).rstrip('0').rstrip('.').rjust(5),
-                      grocery.unit.ljust(7))
+                print(grocery.name.ljust(20), ('%f' % shopping_list[grocery.name][0]).rstrip('0').rstrip('.').rjust(5), grocery.unit.ljust(7), file=file)
 
-print('**********')
-print()
-print('EMZ list 𓂸')
+print(line_break_string + '\n\nEMZ list 𓂸', file=file)
 for grocery in all_groceries:
     if shopping_list[grocery.name][0] != 0:
         if grocery.storage_time < 15:
             if grocery.ninz_friendly <= 0.5:
-                print(grocery.name.ljust(20), ', '.join(shopping_list[grocery.name][1]))
+                print(grocery.name.ljust(20), ', '.join(shopping_list[grocery.name][1]), file=file)
 
-print('**********')
-print()
-print('Groceries you should already have at home:')
+print(line_break_string + '\n\nGroceries you should already have at home:', file=file)
 for grocery in all_groceries:
     if shopping_list[grocery.name][0] != 0:
         if grocery.storage_time >= 15:
-            print(grocery.name.ljust(20), ('%f' % shopping_list[grocery.name][0]).rstrip('0').rstrip('.').rjust(5),
-                  grocery.unit.ljust(7))
+            print(grocery.name.ljust(20), ('%f' % shopping_list[grocery.name][0]).rstrip('0').rstrip('.').rjust(5), grocery.unit.ljust(7), file=file)
+
+file.close()
+
+print('The shopping list for the ♪ meal plan.. of the week!! ♪ has been saved in: \n    ' + file_path)
