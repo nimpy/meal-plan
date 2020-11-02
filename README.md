@@ -9,7 +9,8 @@ For example:
 ```
 Sat Brunch: Daal
 Sat Dinner: (Daal)
-Sun Brunch: Asiatische Wok
+Sun Brunch: The Peanut Butter Toast, The Muesli and Yoghurt
+Sun Dinner: Asiatische Wok
 ...
 ```
 Then create a shopping list (by default, it creates a shopping list for the most recent MPOTW):
