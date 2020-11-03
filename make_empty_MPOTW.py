@@ -17,7 +17,7 @@ file_path = 'meal_plans_of_the_week/mpotw_' + datetime.datetime.now().strftime("
 
 all_recipes = Recipe.get_all_recipes()
 
-file = open(file_path, "w")
+file = open(file_path, "x")
 first_index = week_days.index(first_day)
 for i in range(len(week_days)):
     for meal_type in meal_types:
