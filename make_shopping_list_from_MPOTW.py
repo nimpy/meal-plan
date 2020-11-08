@@ -72,29 +72,35 @@ for meal_plan_ingredient in meal_plan.meal_plan_ingredients:
 
 # printing out the individual shopping lists to a new file
 file_path = os.path.join(directory_MPOTW, os.path.splitext(filename_MPOTW)[0] + '_shopping_list.txt')
-file = open(file_path, "w")
 
-line_break_string = '_' * 80
-print('NINZ list', file=file)
-for grocery in all_groceries:
-    if shopping_list[grocery.name][0] != 0:
-        if grocery.storage_time < 15:
-            if grocery.ninz_friendly > 0.5:
-                print(grocery.name.ljust(20), ('%f' % shopping_list[grocery.name][0]).rstrip('0').rstrip('.').rjust(5), grocery.unit.ljust(7), file=file)
+try:
+    with open(file_path, "x") as file:  # 'x' mode for exclusive creation, failing if the file already exists
 
-print(line_break_string + '\n\nEMZ list 𓂸', file=file)
-for grocery in all_groceries:
-    if shopping_list[grocery.name][0] != 0:
-        if grocery.storage_time < 15:
-            if grocery.ninz_friendly <= 0.5:
-                print(grocery.name.ljust(20), ', '.join(shopping_list[grocery.name][1]), file=file)
+        line_break_string = '_' * 80
+        print('NINZ list', file=file)
+        for grocery in all_groceries:
+            if shopping_list[grocery.name][0] != 0:
+                if grocery.storage_time < 15:
+                    if grocery.ninz_friendly > 0.5:
+                        print(grocery.name.ljust(20), ('%f' % shopping_list[grocery.name][0]).rstrip('0').rstrip('.').rjust(5), grocery.unit.ljust(7), file=file)
 
-print(line_break_string + '\n\nGroceries you should already have at home:', file=file)
-for grocery in all_groceries:
-    if shopping_list[grocery.name][0] != 0:
-        if grocery.storage_time >= 15:
-            print(grocery.name.ljust(20), ('%f' % shopping_list[grocery.name][0]).rstrip('0').rstrip('.').rjust(5), grocery.unit.ljust(7), file=file)
+        print(line_break_string + '\n\nEMZ list 𓂸', file=file)
+        for grocery in all_groceries:
+            if shopping_list[grocery.name][0] != 0:
+                if grocery.storage_time < 15:
+                    if grocery.ninz_friendly <= 0.5:
+                        print(grocery.name.ljust(20), ', '.join(shopping_list[grocery.name][1]), file=file)
 
-file.close()
+        print(line_break_string + '\n\nGroceries you should already have at home:', file=file)
+        for grocery in all_groceries:
+            if shopping_list[grocery.name][0] != 0:
+                if grocery.storage_time >= 15:
+                    print(grocery.name.ljust(20), ('%f' % shopping_list[grocery.name][0]).rstrip('0').rstrip('.').rjust(5), grocery.unit.ljust(7), file=file)
 
-print('The shopping list for the ♪ meal plan... of the week!! ♪ has been saved in: \n    ' + file_path)
+        print("YASSS!!! The shopping list for the ♪ meal plan... of the week!! ♪ has been saved in: \n    " + file_path)
+
+except FileExistsError as fee:
+    print("You failed! There already exists a shopping list file with the same name (Past Nina didn't want to override it). "
+          "Here's the error, see for yourself:", fee)
+except Exception as e:
+    print("This is an exception that Past Nina didn't anticipate. No idea what happened, but it's your problem now!", e)
