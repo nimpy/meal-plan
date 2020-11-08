@@ -28,6 +28,7 @@ yellow capsicum, piece, 1, 0.4
 carrot, piece, 1, 0.4
 sweet potato, kg, 2, 0.4
 broccoli, piece, 0, 0.2
+cauliflower, piece, 0, 0.2
 pumpkin, kg, 2, 0.4
 ginger, piece, 2, 0.2
 spring onion, bunch, 0, 0.4

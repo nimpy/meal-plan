@@ -135,6 +135,14 @@ garlic, 0.25
 lime, 1
 salad, 1
 
+Aloo Gobi, 4, main courses
+potato, 1
+brown onion, 0.25
+cauliflower, 3
+red chilly, 4
+coriander, 1
+coconut oil, 100
+
 Bruschetta, 2, Vorspeisen
 bread, 4
 garlic, 0.2
