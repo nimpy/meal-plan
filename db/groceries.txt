@@ -111,3 +111,5 @@ emergency sparkling water, ml, 50, 1
 alkohol-frei bierschen, ml, 30, 0.8
 green tea, g, 50, 1
 black tea, g, 50, 1
+
+that thing that you ran out of, thingy, 0, 1

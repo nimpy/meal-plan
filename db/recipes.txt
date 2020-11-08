@@ -183,6 +183,9 @@ The Tuna and Bread and Leftover Salad, 1, Ninz-friendly meals
 tuna, 1
 bread, 2
 
+The Chocolate, 1, Ninz-friendly meals
+chocolate, 32
+
 The Peanut Butter On Chocolate, 1, Ninz-friendly meals
 chocolate, 32
 peanut butter, 15
@@ -232,4 +235,7 @@ ginger, 1
 cardamom, 20
 cinnamon, 20
 water, 150
+
+The That Thing That You Ran Out Of, 1, misc
+that thing that you ran out of, 1
 
