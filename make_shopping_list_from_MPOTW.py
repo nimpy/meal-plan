@@ -42,7 +42,8 @@ while True:
 file.close()
 
 # always add the following snacking meals to the meal plan
-vieruurtjes = ['The Banana or Two', 'The Fruit', 'The Chocolate', 'Frietjes', 'Eggs à le Emz', 'The That Thing That You Ran Out Of']
+vieruurtjes = ['The Banana or Two', 'The Fruit', 'The Chocolate', 'Frietjes', 'Eggs à le Emz',
+               'The That Thing That You Ran Out Of']
 for vieruurtje in vieruurtjes:
     this_week_recipes[vieruurtje] += 3
 
@@ -72,7 +73,9 @@ for meal_plan_ingredient in meal_plan.meal_plan_ingredients:
     recipe = meal_plan_ingredient.recipe
     for ingredient in recipe.ingredients:
         shopping_list[ingredient.grocery.name][0] += ingredient.amount * meal_plan_ingredient.amount
-        if meal_plan_ingredient.amount > 0:
+        if meal_plan_ingredient.amount > 1:
+            shopping_list[ingredient.grocery.name][1].append(recipe.name + ' x ' + str(meal_plan_ingredient.amount))
+        else:
             shopping_list[ingredient.grocery.name][1].append(recipe.name)
 
 
