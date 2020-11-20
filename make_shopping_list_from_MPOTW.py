@@ -42,7 +42,7 @@ while True:
 file.close()
 
 # always add the following snacking meals to the meal plan
-vieruurtjes = ['The Banana or Two', 'The Fruit', 'The Chocolate', 'The That Thing That You Ran Out Of']
+vieruurtjes = ['The Banana or Two', 'The Fruit', 'The Chocolate', 'Frietjes', 'Eggs à le Emz', 'The That Thing That You Ran Out Of']
 for vieruurtje in vieruurtjes:
     this_week_recipes[vieruurtje] += 3
 
