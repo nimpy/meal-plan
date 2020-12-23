@@ -1,4 +1,4 @@
-The Classic Pasta, 4, main courses
+Pasta, 4, main courses
 pasta sauce, 1
 penne, 1
 brown onion, 0.5 
@@ -121,7 +121,7 @@ salt, 10
 olive oil fancy, 20
 balsamic vinegar, 10
 
-The Classic Wraps, 2, main courses
+Wraps, 2, main courses
 wraps, 4
 beans, 1
 red onion, 0.25
@@ -171,6 +171,10 @@ coconut oil, 10
 The Peanut Butter Toast, 2, Ninz-friendly meals
 peanut butter, 60
 bread, 4
+
+The Avocado Toast, 1, Ninz-friendly meals
+avocado, 1
+bread, 2
 
 The Muesli and Milk, 1, Ninz-friendly meals
 muesli, 80
