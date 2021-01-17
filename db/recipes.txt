@@ -153,7 +153,7 @@ salt, 4
 Frietjes, 2, Vorspeisen
 potato, 0.33
 
-Eggs à le Emz, 1, Vorspeisen
+Eggs à l'Emz, 1, Vorspeisen
 eggs, 3
 
 The Classic Breakfast, 2, breakies
