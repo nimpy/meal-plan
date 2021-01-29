@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from os import listdir
 import os
 import sys
@@ -42,7 +44,7 @@ while True:
 file.close()
 
 # always add the following snacking meals to the meal plan
-vieruurtjes = ['The Banana or Two', 'The Fruit', 'The Chocolate', 'Frietjes', 'Eggs à le Emz',
+vieruurtjes = ['The Banana or Two', 'The Fruit', 'The Chocolate', 'Frietjes', 'Eggs à l\'Emz',
                'The That Thing That You Ran Out Of']
 for vieruurtje in vieruurtjes:
     this_week_recipes[vieruurtje] += 3
