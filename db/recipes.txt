@@ -143,6 +143,12 @@ red chilly, 4
 coriander, 1
 coconut oil, 100
 
+Kusa Be Aadas, 4, main courses
+brown onion, 0.5
+zucchini, 4
+brown lentils, 500
+feta cheese, 1
+
 Bruschetta, 2, Vorspeisen
 bread, 4
 garlic, 0.2
@@ -219,6 +225,15 @@ cinnamon, 20
 salt, 4
 almonds, 200
 coconut oil, 10
+
+Han's Pistachio Cake, 4, desserts
+pistachios, 125
+self-rising flour, 200
+baking soda, 5
+sugar, 100
+lemon, 1
+coconut oil, 100
+rice milk, 250
 
 The Water, 1, beverages
 water, 250
