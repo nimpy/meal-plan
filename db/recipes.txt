@@ -1,6 +1,7 @@
 Pasta, 4, main courses
 pasta sauce, 1
 penne, 1
+eggplant, 4
 brown onion, 0.5 
 garlic, 1
 red chilly, 5
