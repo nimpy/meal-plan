@@ -1,6 +1,6 @@
 # ♪ Meal plan... of the week!! ♪
 
-Make an empty (skeleton) MPOTW file with that starts with (e.g.) a Saturday:
+Make an empty (skeleton) MPOTW file that starts with (e.g.) a Saturday:
 ``` sh
 python make_empty_MPOTW.py sat
 ```
