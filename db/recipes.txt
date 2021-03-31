@@ -149,6 +149,20 @@ zucchini, 4
 brown lentils, 500
 feta cheese, 1
 
+Falafel and Yoghurt Dip, 4, main courses
+chickpeas, 500
+coriander, 1
+brown onion, 0.25
+baking soda, 5
+cumin powder, 20
+coriander powder, 20
+chilly powder, 20
+garlic, 1
+lemon, 2
+yoghurt, 500
+sesame seeds, 50
+olive oil fancy, 100
+
 Bruschetta, 2, Vorspeisen
 bread, 4
 garlic, 0.2
@@ -188,7 +202,7 @@ milk, 250
 
 The Muesli and Yoghurt, 1, Ninz-friendly meals
 muesli, 80
-yoghurt, 200
+soy yoghurt, 200
 
 The Oats and Boiling Water and Cinnamon, 1, Ninz-friendly meals
 muesli, 80

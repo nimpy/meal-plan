@@ -47,6 +47,7 @@ rice, g, 50, 1
 risotto rice, g, 50, 1
 coconut cream, l, 50, 1
 
+dry chickpeas, g, 50, 1
 chickpeas, can, 50, 1
 beans, can, 50, 1
 
@@ -57,7 +58,8 @@ mozzarella, box, 3, 1
 feta cheese, box, 3, 1
 sahne, cup, 3, 0.8
 
-yoghurt, g, 3, 1
+soy yoghurt, g, 3, 1
+yoghurt, ml, 3, 1
 milk, ml, 20, 1
 soy milk, ml, 20, 1
 rice milk, ml, 20, 1
@@ -83,6 +85,9 @@ white wine, bottle, 10, 0.8
 lentils, g, 50, 1
 brown lentils, g, 50, 1
 cumin seeds, g, 50, 0.8
+cumin powder, g, 50, 0.8
+chilly powder, g, 50, 0.8
+coriander powder, g, 50, 0.8
 cardamom, g, 50, 0.8
 dosa mix, g, 50, 1
 
