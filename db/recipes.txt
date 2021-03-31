@@ -163,6 +163,17 @@ yoghurt, 500
 sesame seeds, 50
 olive oil fancy, 100
 
+Soup, 2, main courses
+parsnip, 2
+purple sweet potato, 2
+carrot, 1
+parsley, 1
+brown onion, 0.25
+garlic, 0.5
+knorr bouillon, 1
+soy sauce, 10
+risotto rice, 100
+
 Bruschetta, 2, Vorspeisen
 bread, 4
 garlic, 0.2

@@ -27,6 +27,8 @@ red capsicum, piece, 1, 0.4
 yellow capsicum, piece, 1, 0.4
 carrot, piece, 1, 0.4
 sweet potato, kg, 2, 0.4
+purple sweet potato, piece, 2, 0.4
+parsnip, piece, 2, 0.4
 broccoli, piece, 0, 0.2
 cauliflower, piece, 0, 0.2
 pumpkin, kg, 2, 0.4
@@ -111,6 +113,7 @@ cinnamon, g, 50, 0.8
 baking soda, g, 50, 0.8
 sugar, g, 50, 0.8
 salt, g, 50, 0.8
+knorr bouillon, cube, 50, 0.8
 coconut oil, g, 50, 0.8
 sunflower oil, ml, 50, 0.8
 olive oil cheap, ml, 50, 1
